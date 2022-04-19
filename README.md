@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="NextJS Store" title="Blog Posts" src="#" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+## 💻 Sobre o projeto
 
-### `npm start`
+**Blogs Posts** é uma aplicação que permite carregar e buscar diversos posts de um blog através de uma conexão com uma API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Funcionalidades
 
-### `npm test`
+- [x] Listar Posts
+- [x] Buscar Posts na API
+- [x] Renderiza de 2 em 2 posts, conforme clique no botão Load more posts.
+ 
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como executar o projeto
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [NodeJS](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 🧭 Rodando a aplicação web
 
-### `npm run eject`
+```bash
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Clone este repositório
+$ git clone git@github.com:gustavoferreiradev/blog-posts.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd blog-posts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Execute o comando abaixo para instalar as dependências do projeto.
+$ npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Execute o comando abaixo iniciar o projeto.
+$ npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### 🧭 Rodando os testes unitários
 
-### Code Splitting
+```bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Após entrar no diretório, execute o comando abaixo:
+$ npm run test
+```
+---
 
-### Analyzing the Bundle Size
+## 🛠 Tecnologias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### Making a Progressive Web App
+#### **Website**  ([HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)  + [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) + [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript))
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-   **[React](https://reactjs.org/)**
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-   **[Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)**
+  
+-   **[Jest](https://jestjs.io)**
 
-### Deployment
+-   **[React Testing Library](https://testing-library.com)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🦸 Autor
+
+<a href="https://github.com/gustavoferreiradev">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/19676795?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Gustavo Ferreira</b></sub></a> <a href="https://github.com/gustavoferreiradev/" title="Gustavo Ferreira">🚀</a>
+ <br />
+ 
+ 
+[![Linkedin Badge](https://img.shields.io/badge/-Gustavo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gustavofersilva/)](https://www.linkedin.com/in/gustavofersilva/) 
+[![Gmail Badge](https://img.shields.io/badge/-gustavofersilva@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gustavofersilva@gmail.com)](mailto:gustavofersilva@gmail.com)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Gustavo Fereira 👋🏽 [Entre em contato!](https://www.linkedin.com/in/gustavofersilva/)
+
+
