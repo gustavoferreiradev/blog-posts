@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextJS Store" title="Blog Posts" src="#" />
+    <img alt="Blog Posts" title="Blog Posts" src="#" />
 </h1>
 
 <p align="center">
