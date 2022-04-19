@@ -99,7 +99,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto esta sob a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Gustavo Fereira 👋🏽 [Entre em contato!](https://www.linkedin.com/in/gustavofersilva/)
 
